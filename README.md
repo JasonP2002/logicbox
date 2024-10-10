@@ -17,6 +17,7 @@ Application utilizes a graphical interface, guided lessons and exercises.<br>
 ## How It Works
 ### Proof Strings
 Behind the UI, proofs are represented as strings which follow this template:<br>
+<br>
 `([prop_logic_rule]‘conclusion_of_rule‘{list_of_proofs_of_premises})`, where<br>
 <ul>
   <li>prop_logic_rule: The Propositional Logic rule used to achieve the conclusion.</li>
@@ -26,10 +27,13 @@ Behind the UI, proofs are represented as strings which follow this template:<br>
       specified above.</li>
 </ul>
 
-![An example of a proof in LogicBox](logicbox_example.png "LogicBox Proof Example")
+<p align="center">
+  <img src="logicbox_example.png" alt="LogicBox Proof Example" />
+</p>
 
 ### Proof Parser
-These strings are [parsed](https://github.com/JasonP2002/logicbox/blob/c533138ba78a30b968c7101cd4a340e9371277b0/src/utils/ProofParser.js), which returns a data structure like this:<br>
+These strings are [parsed](https://github.com/JasonP2002/logicbox/blob/c533138ba78a30b968c7101cd4a340e9371277b0/src/utils/ProofParser.js), which returns a data structure:<br>
+<br>
 `[conclusion_of_rule_use,prop_logic_rule_used,children]`, where<br>
 <ul>
   <li>conclusion_of_rule_use: The conclusion of a rule application.</li>
