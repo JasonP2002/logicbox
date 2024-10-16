@@ -2,7 +2,10 @@
 ### Final year project (2:1) for the University of Birmingham.
 
 Developed with React + HTML/CSS.<br>
-Utilizes Google's [Blockly](https://github.com/google/blockly) library and [nbudin](https://github.com/nbudin)'s [react-blockly](https://github.com/nbudin/react-blockly) library.
+<br>
+Utilizes Google's [Blockly](https://github.com/google/blockly) library and [nbudin](https://github.com/nbudin)'s [react-blockly](https://github.com/nbudin/react-blockly) library.<br>
+<br>
+Pop-ups using [reactjs-popup](https://github.com/yjose/reactjs-popup) and some [MUI](https://github.com/mui/material-ui) components used.
 
 ## Run
 Install packages: `npm install`<br>
